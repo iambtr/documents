@@ -1,14 +1,14 @@
-#2-1.引入jquery和lazyload拓展
+# 2-1.引入jquery和lazyload拓展
 ```
 <script src="jquery-1.11.0.min.js"></script>
 <script src="jquery.lazyload.js?v=1.9.1"></script>
 ```
-#2-2.通过class指定标签，src指定家在前的图片，data-original指定加载后的图片。
+# 2-2.通过class指定标签，src指定家在前的图片，data-original指定加载后的图片。
 ```
 <img class="lazy" src="img/jd.png" data-original="img/bmw_m1_hood.jpg">
 <img class="lazy" src="img/jd.png" data-original="img/bmw_m1_side.jpg">
 ```
-#2-3.传递参数绑定lazyload事件
+# 2-3.传递参数绑定lazyload事件
 ```
 <script type="text/javascript" charset="utf-8">
   $(function() {
